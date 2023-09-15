@@ -1,0 +1,41 @@
+name: Lobbysystem
+version: 1.0.0
+main: net.komvilcraft.nerotvlive.lobby.Lobbysystem
+api-version: 1.19
+authors: [ nerotvlive ]
+description: Lobbysystem für KomvilCraft
+website: https://komvilcraft.net
+
+depend:
+  - CloudNet-Bridge
+  - KomvilCore
+
+commands:
+  Build:
+  Jumper:
+  Spawn:
+  Maintenance:
+    aliases: [Wartungsmodus]
+  Warp:
+  Broadcast:
+    aliases: [bc]
+  Clearchat:
+    aliases: [cc]
+  Day:
+  Gamemode:
+    aliases: [gm]
+  Night:
+  Ping:
+  Rain:
+  Speed:
+  SRL:
+    aliases: [stop]
+  Sun:
+  Teleport:
+    aliases: [tp,goto]
+  Tell:
+    aliases: [w,whisper,msg]
+  Thunder:
+    aliases: [storm]
+  pvp:
+  Test:
